@@ -23,16 +23,18 @@ foi criado variaveis de cores -- */
     --red: #CF3C3F;
 }
 
-/* .divcontainer{
+.divcontainer{
 display: flex;
-} */
+
+}
 
 .background-white{
-
+max-height: 100vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 100%;
+justify-content: space-between;
 max-width: 500px;
 min-height: 100vh;
 padding: clamp(35px, 8%, 70px);
@@ -42,7 +44,8 @@ padding: clamp(35px, 8%, 70px);
 
 .logo-riot{
 width: 130px;
-margin-bottom: 80px;
+margin-bottom: 40px;
+margin-top: -10%;
 }
 
 
@@ -182,6 +185,7 @@ apos quando a checkbox for checada. */
     cursor: pointer;
     border: none;
     margin-bottom: 60px;
+    margin-top: -10%;
 }
 .btn-login img{
 
@@ -198,15 +202,33 @@ background-color: white;
 border: 2px solid var(--light-grey);
 }
 
+.links{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-top: -10%;
+}
+
+.section1-1{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
 .background-wall{
-    
+
+ width: 100%;
+ background-image: url('./images/background-image.gif');
+ background-size: cover;
+ background-position: 100%;
+ background-repeat: no-repeat;
+ flex: 1;
 }
 
-.background-video{
 
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    
-}
