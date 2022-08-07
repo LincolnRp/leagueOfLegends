@@ -10,3 +10,5 @@ Neste projeto imitei a tela do league of legends (meu jogo favorito), é um proj
 
 deploy: https://lincolnrp.github.io/leagueOfLegends/
 
+
+![Screenshot_2](C:\Users\linco\OneDrive\Área de Trabalho\Screenshot_2.png)![Screenshot_1](C:\Users\linco\OneDrive\Área de Trabalho\Screenshot_1.png)
